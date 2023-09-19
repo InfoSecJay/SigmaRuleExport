@@ -15,7 +15,7 @@ current_date = datetime.now().strftime("%d_%m_%Y")
 output_csv = f"sigma_rules_export_{current_date}.csv"
 
 # GitHub API Token
-github_token = "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"
+github_token = "<GITHUB TOKEN>"
 
 
 # Function to fetch YAML file content from GitHub API
