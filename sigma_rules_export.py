@@ -5,8 +5,7 @@ import yaml
 from datetime import datetime
 
 # GitHub repository URL
-github_repo = "SigmaHQ/sigma"
-github_api_url = f"https://api.github.com/repos/{github_repo}/contents/rules"
+github_api_url = f"https://api.github.com/repos/SigmaHQ/sigma/contents/rules"
 
 # Get the current date in the specified format
 current_date = datetime.now().strftime("%d_%m_%Y")
